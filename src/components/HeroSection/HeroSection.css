@@ -97,6 +97,10 @@
     left: 0%;
     top: 380px;
   }
+  .hero-text h1 {
+    padding-right: 50px;
+    font-size: 36px;
+  }
 }
 @media (max-width: 376px) {
   .hero-background {
