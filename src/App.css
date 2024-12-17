@@ -1,0 +1,112 @@
+/* ===========================
+   VARIABLES & ROOT COLORS
+   =========================== */
+   :root {
+    --primary-color: #6b3cc9;
+    --secondary-color: #f28d35;
+    --analogous-color-1: #6a44f2;
+    --analogous-color-2: #1cbddd;
+    --triadic-color-1: #52378c;
+    --dark-color: #78bf91;
+    --text-color: #2f2f2f;
+    --text-color-light: #545a75;
+    --text-color-subtle: #9c9991;
+    --accent-color-1: #e2f2fe;
+    --accent-color-2: #fff8e0;
+    --error-color: #ff0335;
+    --success-color: #5eb30b;
+    --accordian-color: #faf8ff;
+    --white-color: #ffffff;
+    --linear-gradient: linear-gradient(256.73deg, #1cbdde 27.86%, #4dca79 100%), #ffffff;
+  }
+  
+  /* ===========================
+     GLOBAL RESETS
+     =========================== */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    color: var(--white-color);
+    background-color: #ffffff;
+    line-height: 1.6;
+  }
+  
+  /* ===========================
+     TYPOGRAPHY
+     =========================== */
+  h1, h2, h3, h4, h5, h6 {
+    color: var(--white-color);
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  p {
+    color: var(--white-color);
+    margin-bottom: 1rem;
+  }
+  
+  a {
+    color: var(--white-color);
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: var(--secondary-color);
+  }
+  
+  /* ===========================
+     BUTTONS
+     =========================== */
+  button, .btn {
+    background-color: var(--primary-color);
+    color: #ffffff;
+    border: none;
+    padding: 0.8rem 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover, .btn:hover {
+    background-color: var(--triadic-color-1);
+  }
+  
+  button:focus, .btn:focus {
+    outline: 2px solid var(--secondary-color);
+  }
+  
+  /* ===========================
+     CONTAINER STYLES
+     =========================== */
+  .container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+  
+  .section {
+    padding: 2rem 0;
+  }
+ 
+  /* ===========================
+     RESPONSIVE MEDIA QUERIES
+     =========================== */
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 1.75rem;
+    }
+    .container {
+      padding: 0 0.5rem;
+    }
+  }
+  

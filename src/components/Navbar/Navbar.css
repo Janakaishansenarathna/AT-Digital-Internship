@@ -1,0 +1,19 @@
+.nav-link {
+  font-size: 1rem;
+  font-weight: 600;
+}
+.navbar-toggler {
+  border: none;
+}
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+.navbar {
+  background-color: var(--primary-color);
+}
+@media (max-width: 376px){
+  #basic-navbar-nav {
+    margin-top: 2rem;
+    line-height: 1.5rem;
+  }
+}
