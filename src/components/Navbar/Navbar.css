@@ -11,7 +11,7 @@
 .navbar {
   background-color: var(--primary-color);
 }
-@media (max-width: 376px){
+@media (max-width: 480px){
   #basic-navbar-nav {
     margin-top: 2rem;
     line-height: 1.5rem;

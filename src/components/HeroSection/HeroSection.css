@@ -72,16 +72,18 @@
   }
  
   .hero-content {
-    height: 258px;
+    height: 430px;
     padding: 24px;
     width: 100vw;
     left: 0%;
   }
  
   .hero-text h1 {
-    font-size: 32px;
+    font-size: 40px;
     margin-bottom: 20px;
     width: 100vw;
+    padding-right: 50px;
+    line-height: 1.3em;
   }
 }
 @media (max-width: 376px) {.hero-text h1 {
