@@ -5,6 +5,9 @@
   height: auto;
   margin: 0 auto;
 }
+.text-purple {
+  color: var(--primary-color);
+}
 .faq-toggle {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
@@ -33,6 +36,8 @@
 .accordion-button {
   background-color: var(--accordian-color);
   color: #000;
+  font-weight: bold;
+  font-size: 20px;
   box-shadow: none;
   border: none;
 }
