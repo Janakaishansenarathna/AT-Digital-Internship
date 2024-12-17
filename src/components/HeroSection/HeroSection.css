@@ -97,11 +97,11 @@
     left: 0%;
     top: 380px;
   }
-  /* .hero-text h1 {
-    font-size: 40px;
-  } */
 }
 @media (max-width: 376px) {
+  .hero-background {
+    height: 380px !important;
+  }
   .hero-text h1 {
     padding-right: 50px;
     font-size: 36px;
